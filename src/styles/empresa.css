@@ -1,0 +1,96 @@
+#text_empresa {
+    display: flex;
+    position: absolute;
+    bottom: 2%; /* Alinha o elemento na parte inferior da section */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%; /* 50% of the container width */
+    text-align: center; /* Alinha o texto no centro horizontal */
+    justify-content: center;
+    gap: 1rem;
+    line-height: 1.3;
+}
+
+#text_empresa h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4vw; /* 2% of viewport width */
+    color: #fff;
+}
+
+#text_empresa span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vw; /* 2% of viewport width */
+    color: #fff;
+}
+
+#empresa {
+    width: 100%;
+    height: 30.5rem;
+    background-color: #43464B;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-topicos {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.topicos {
+    background-color: #ffffff; /* Cor de fundo do quadrado */
+    padding: 20px; /* Espaçamento interno para separar o conteúdo das bordas */
+    border: none;
+    border-radius: 20px 0px 20px 20px; /* Borda arredondada */
+    width: 350px; /* Largura do quadrado */
+    height: 330px;
+    z-index: 2;
+}
+
+.topicos i {
+    margin: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #43464B;
+}
+
+.topicos h3 {
+    font-size: 20px; /* Tamanho da fonte do h3 */
+    margin-bottom: 20px; /* Margem inferior para separar o h3 da span */
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #43464B;
+}
+
+.topicos span {
+    font-size: 16px; /* Tamanho da fonte da span */
+    color: #43464B; /* Cor do texto da span */
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.text-icon {
+    font-size: 20px; /* Tamanho da fonte da span */
+    color: #fff; /* Cor do texto da span */
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: start;
+    padding: 10px 130px;
+}

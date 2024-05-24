@@ -1,0 +1,92 @@
+.onda-inv {
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: block; /* Garante que a imagem seja tratada como um bloco para o alinhamento correto */
+    transform: scale(1.01);
+}
+
+#servicos {
+    width: 100%;
+    /*height: 39rem;*/
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3.5rem;
+    overflow: hidden;
+}
+
+#text_servicos {
+    padding-top: 6%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* 50% of the container width */
+    text-align: center; /* Alinha o texto no centro horizontal */
+    gap: 1rem;
+    line-height: 1.3;
+}
+
+#text_servicos h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4vw; /* 2% of viewport width */
+    color: #001270;
+}
+
+#text_servicos span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vw; /* 2% of viewport width */
+    color: #001270;
+}
+
+.list-topicos-servicos {
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.topicos-servicos {
+    background-color: #001270; /* Cor de fundo do quadrado */
+    padding: 20px; /* Espaçamento interno para separar o conteúdo das bordas */
+    border: none;
+    border-radius: 20px 0px 20px 20px; /* Borda arredondada */
+    width: 350px; /* Largura do quadrado */
+    height: 330px;
+    z-index: 2;
+}
+
+.topicos-servicos i {
+    margin: 10px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.topicos-servicos h3 {
+    font-size: 20px; /* Tamanho da fonte do h3 */
+    margin-bottom: 20px; /* Margem inferior para separar o h3 da span */
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+
+.topicos-servicos span {
+    font-size: 16px; /* Tamanho da fonte da span */
+    color: #fff; /* Cor do texto da span */
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}

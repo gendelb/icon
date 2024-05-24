@@ -1,0 +1,121 @@
+#fale_conosco {
+    width: 100%;
+    height: 35rem;
+    background-color: #43464B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.onda-fale {
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: block; /* Garante que a imagem seja tratada como um bloco para o alinhamento correto */
+}
+
+#text_fale_conosco {
+    top: 20%;
+    left: -5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 50%; /* 50% of the container width */
+    gap: 1rem;
+    line-height: 1.3;
+}
+
+#text_fale_conosco h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4vw; /* 2% of viewport width */
+    color: #fff;
+}
+
+#text_fale_conosco span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4vw; /* 2% of viewport width */
+    color: #fff;
+}
+
+.container-contatos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.caixa-contatos {
+    background-color: #fff; /* Cor de fundo do quadrado */
+    padding: 10px; /* Espaçamento interno para separar o conteúdo das bordas */
+    border: none;
+    border-radius: 20px 0px 20px 20px; /* Borda arredondada */
+    width: 60px; /* Largura do quadrado */
+    height: 50px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.caixa-contatos:hover {
+    transform: scale(1.1);
+}
+
+.caixa-contatos i {
+    font-size: 1.6rem;
+    color: #43464B;
+}
+
+/* Estilos iniciais */
+.contato {
+    display: none;
+    transform: translateY(-10px); /* Começa com uma leve translação para cima */
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.contato.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.m-email, .m-telefone, .m-instagram {
+    background-color: #fff; /* Cor de fundo do quadrado */
+    padding: 10px; /* Espaçamento interno para separar o conteúdo das bordas */
+    border: none;
+    border-radius: 20px 0px 20px 20px; /* Borda arredondada */
+    width: 400px; /* Largura do quadrado */
+    height: 50px;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    left: 20%;
+}
+
+.m-email, .m-telefone, .m-instagram p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4rem;
+    color: #43464B;
+}
+
+.caduceu {
+    width: 35%;
+    top: 14%;
+    right: 10%;
+    position: absolute;
+}

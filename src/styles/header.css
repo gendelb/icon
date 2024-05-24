@@ -1,0 +1,79 @@
+header {
+    width: 100%;
+    height: 3rem;
+    position: sticky;
+    top: 0;
+    background-color: #43464B;
+    align-content: center;
+    z-index: 3;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 3.5rem;
+    align-items: center;
+}
+
+#nav_logo {
+    height: 2rem;
+}
+
+#nav_list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 10px;
+}
+
+.nav-item a:hover{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #43464B;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    border-radius: 20px 0px 20px 20px; /* Borda arredondada */
+    border: none;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.button-faleconosco {
+    padding: 0 10px;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 15px 0px 15px 15px; /* Borda arredondada */
+    border: none;
+    font-size: 1.1rem;
+    background-color: #fff;
+    color: #43464B;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.button-faleconosco:hover {
+    padding: 0 10px;
+    width: 9rem;
+    height: 2rem;
+    border-radius: 15px 0px 15px 15px; /* Borda arredondada */
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    background-color: #43464B;
+    border: 1px solid #ffffff;
+}
